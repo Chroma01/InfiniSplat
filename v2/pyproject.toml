@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infinisplat"
+version = "2.0.0"
+description = "InfiniSplat v2: feed-forward Gaussian reconstruction from multiple images"
+readme = "README.md"
+license-files = ["LICENSE", "LICENSE_DA3", "License.txt", "Notice.txt", "THIRD_PARTY.md", "examples/NOTICE.md"]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "torch>=2.5", "numpy>=1.24,<2", "Pillow>=10", "einops>=0.8",
+  "safetensors>=0.4", "plyfile>=1.0", "huggingface-hub>=0.25",
+  "omegaconf>=2.3", "addict>=2.4", "evo>=1.30,<2",
+]
+
+[project.scripts]
+infinisplat = "infinisplat.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
