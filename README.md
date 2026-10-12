@@ -5,7 +5,7 @@ Feed-forward 3D Gaussian reconstruction from images.
 | Version | Input | Getting started |
 | --- | --- | --- |
 | **[InfiniSplat v2](v2/README.md)** | Multiple overlapping images, optionally with calibrated cameras | [Installation](v2/INSTALL.md) · [Examples](v2/examples/README.md) · [COLMAP](v2/docs/colmap.md) |
-| **[InfiniSplat v1](v1/README.md)** | A single RGB image, optionally with depth | [Installation](v1/INSTALL.md) · [Inference](v1/docs/inference.md) |
+| **[InfiniSplat v1](v1/README.md)** | A single RGB image, optionally with LiDAR depth | [Installation](v1/INSTALL.md) · [Inference](v1/docs/inference.md) |
 
 ## InfiniSplat v2
 
