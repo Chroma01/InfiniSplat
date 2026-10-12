@@ -1,6 +1,71 @@
+# InfiniSplat
+
+Feed-forward 3D Gaussian reconstruction from images.
+
+| Version | Input | Getting started |
+| --- | --- | --- |
+| **[InfiniSplat v2](v2/README.md)** | Multiple overlapping images, optionally with calibrated cameras | [Installation](v2/INSTALL.md) · [Examples](v2/examples/README.md) · [COLMAP](v2/docs/colmap.md) |
+| **[InfiniSplat v1](v1/README.md)** | A single RGB image, optionally with depth | [Installation](v1/INSTALL.md) · [Inference](v1/docs/inference.md) |
+
+## InfiniSplat v2
+
 <div align="center">
 
-<h1>🌌 InfiniSplat: Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis</h1>
+<h2>InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views</h2>
+
+<p>
+  <a href="https://github.com/Edisoneh">Yongzhen Hu<sup>1,2*</sup></a> ·
+  <a href="https://ritianyu.github.io/">Hao Yu<sup>1*</sup></a> ·
+  <a href="https://plus-wave.github.io/">Jiawei Wang<sup>1</sup></a> ·
+  Xianming Zeng<sup>2</sup> · Jianyun Xu<sup>2</sup> · Xingliang Liu<sup>2</sup> ·
+  <a href="https://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu<sup>3</sup></a> ·
+  <a href="https://xzhou.me/">Xiaowei Zhou<sup>1</sup></a> ·
+  <a href="https://person.zju.edu.cn/en/0093140">Hujun Bao<sup>1</sup></a> ·
+  <a href="https://pengsida.net/">Sida Peng<sup>1†</sup></a>
+</p>
+
+<p><sup>1</sup> Zhejiang University · <sup>2</sup> Hello TransTech · <sup>3</sup> Shenzhen University</p>
+<p><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</p>
+
+</div>
+
+InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without
+camera poses, for novel-view rendering.
+
+<p align="center">
+  <a href="https://zju3dv.github.io/InfiniSplat2/">
+    <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red" alt="InfiniSplat v2 project page">
+  </a>
+  <img src="https://img.shields.io/badge/Paper-Coming_Soon-lightgrey" alt="Paper: coming soon">
+  <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo">
+    <img src="https://img.shields.io/badge/HuggingFace-Demo-yellow?logo=huggingface&logoColor=yellow" alt="Hugging Face Demo">
+  </a>
+  <a href="https://huggingface.co/Edisoneh/InfiniSplat-v2">
+    <img src="https://img.shields.io/badge/HuggingFace-Weights-yellow?logo=huggingface&logoColor=yellow" alt="InfiniSplat v2 weights">
+  </a>
+  <a href="v2/README.md">
+    <img src="https://img.shields.io/badge/Code-v2-blue?logo=github" alt="InfiniSplat v2 code">
+  </a>
+</p>
+
+<div align="center">
+
+<a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="v2/assets/github_demo.gif" alt="InfiniSplat v2 reconstruction previews" width="90%" /></a>
+
+</div>
+
+<!-- Replace the paper badge with its public paper link when available; update the project-page URL if its hosting location changes. -->
+
+For installation, weight setup, camera modes, and runnable examples, see the
+[v2 README](v2/README.md). Original-resolution [example inputs](https://huggingface.co/Edisoneh/InfiniSplat-v2/resolve/main/examples-png.zip) are hosted with the weights (90.4 MB).
+
+---
+
+## InfiniSplat v1
+
+<div align="center">
+
+<h2>🌌 InfiniSplat: Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis</h2>
 
 <p align="center"><strong>SIGGRAPH Asia 2026 (ACM Transactions on Graphics)</strong></p>
 
@@ -38,78 +103,36 @@
 
 <div align="center">
 
-<img src="assets/github_demo.gif" alt="InfiniSplat Demo" width="90%" />
+<img src="v1/assets/github_demo.gif" alt="InfiniSplat v1 Demo" width="90%" />
 
 </div>
 
-## 📣 News
+V1 supports single-image RGB reconstruction and depth-sensor-guided
+reconstruction. Its installation guide, examples, and inference commands are in
+[v1/](v1/README.md).
 
-> **[2026-07]** 🎉 InfiniSplat has been conditionally accepted to SIGGRAPH Asia 2026 (Journal Track)!
+[Code and usage](v1/README.md) · [Installation](v1/INSTALL.md) ·
+[Inference guide](v1/docs/inference.md)
 
-> **[2026-07]** 🎉 Inference code for RGB-only and depth-guided 3D Gaussian reconstruction is available now!
+---
 
-## 🧩 What can InfiniSplat do?
+## Repository layout
 
-InfiniSplat supports two practical modes for single-image 3D Gaussian reconstruction:
-
-| Capability | Input | Output |
-| --- | --- | --- |
-| Monocular 3D Gaussian Reconstruction | RGB Image | 3DGS |
-| Depth-Sensor-Guided 3D Gaussian Reconstruction | RGB Image + Depth | 3DGS |
-
-## ⚙️ Installation
-
-Please see [INSTALL.md](INSTALL.md) for environment setup and checkpoint download.
-
-## 🚀 Inference
-
-### RGB Only
-
-Run a single image:
-
-```bash
-python -m src.demo.infer_batch_images --input examples/data/rgb_demo/pexels-masi.jpg
+```text
+InfiniSplat/
+├── README.md
+├── LICENSE
+├── v1/
+└── v2/
 ```
 
-Run a directory using the bundled examples:
+From the repository root, run `cd v1` for single-image reconstruction or `cd v2`
+for multi-view reconstruction, then follow that version's installation guide.
 
-```bash
-python -m src.demo.infer_batch_images --input examples/data/rgb_demo
-```
+Install each version in its own Python environment. V1 and v2 use different
+dependencies and weights.
 
-### Depth-Sensor-Guided Reconstruction
-
-Run a single RGB and depth pair with matching filename stems in the same directory:
-
-```bash
-python -m src.demo.infer_batch_images \
-  --mode lidar \
-  --input examples/data/lidar_demo/eth3d_kicker.png
-```
-
-Run the bundled RGB and depth pairs:
-
-```bash
-python -m src.demo.infer_batch_images \
-  --mode lidar \
-  --input examples/data/lidar_demo
-```
-
-See [docs/inference.md](docs/inference.md) for camera parameters, output control, and other optional arguments.
-
-## 🖥️ Web Demo
-
-The local Gradio demo provides RGB reconstruction, staged PLY and standalone HTML downloads, and an interactive Gaussian viewer. After preparing the inference environment, launch it with:
-
-```bash
-python demo.py
-```
-
-Open `http://127.0.0.1:7860` in a browser. The demo reuses `checkpoints/infinisplat_rgb.ckpt` when available and otherwise downloads the released RGB checkpoint from `PLUS-WAVE/InfiniSplat`. Set `INFINISPLAT_CHECKPOINT` to use a checkpoint at another path.
-
-The hosted version is available on the [Hugging Face Space](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat).
-
-## 📄 License and Project Use
+## License and Project Use
 
 License: [Project Registration License (PRL) v1.0](LICENSE)
 
@@ -119,18 +142,11 @@ Project use by companies, universities, or other organizations is free but requi
 
 **Project use registration and Word template:** [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSff5QjjANlJ2hnXYqBSAzKWxEM58gIxPLh17-t3j3-MqO1a5w/viewform)
 
-## 🙏 Acknowledgments
 
-We sincerely thank the authors of [DINOv3](https://github.com/facebookresearch/dinov3), [Depth Pro](https://github.com/apple/ml-depth-pro), [InfiniDepth](https://github.com/zju3dv/InfiniDepth), and [gsplat](https://github.com/nerfstudio-project/gsplat) for their excellent work. InfiniSplat is built on top of these projects.
+V1 and v2 share the project license above. Third-party components retain their
+respective licenses and notices; see [v2 component provenance](v2/THIRD_PARTY.md).
 
----
+## Acknowledgments
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Thanks" width="25" height="25" />
-
-**Thank you for your interest in InfiniSplat!**
-
-<sub>⭐ Star this repo if you find it interesting!</sub>
-
-</div>
+See the [v1 acknowledgments](v1/README.md#-acknowledgments) and
+[v2 acknowledgments](v2/README.md#acknowledgments).
