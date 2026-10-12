@@ -361,6 +361,9 @@ def save_ply(
     """Save a predicted Gaussian3D to a ply file."""
 
     def _inverse_sigmoid(tensor: torch.Tensor) -> torch.Tensor:
+        # Saturated opacity is valid; its PLY logit must still be finite.
+        upper = torch.nextafter(tensor.new_tensor(1.0), tensor.new_tensor(0.0))
+        tensor = tensor.clamp(min=torch.finfo(tensor.dtype).tiny, max=upper)
         return torch.log(tensor / (1.0 - tensor))
 
     gaussians = prepare_gaussians_for_ply_export(gaussians)
