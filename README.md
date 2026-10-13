@@ -4,13 +4,12 @@
 
 <p><strong>From images to 3D Gaussian scenes</strong></p>
 
-<p>Feed-forward reconstruction for novel-view rendering.<br>
-Explore multi-view reconstruction (v2) or single-image reconstruction with optional LiDAR depth (v1).</p>
+<p>Feed-forward reconstruction for novel-view rendering. Explore multi-view reconstruction (v2) or single-image reconstruction with optional LiDAR depth (v1).</p>
 
 </div>
 
 | | [v2 · Multi-view](#infinisplat-v2) | [v1 · Single image / LiDAR](#infinisplat-v1) |
-| --- | --- | --- |
+| :--- | :---: | :---: |
 | Input | Multiple images, with or without camera poses | One RGB image, optionally guided by LiDAR depth |
 | Explore | [Code and usage](v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
 
@@ -59,11 +58,9 @@ Explore multi-view reconstruction (v2) or single-image reconstruction with optio
 
 <!-- Replace the paper badge with its public paper link when available; update the project-page URL if its hosting location changes. -->
 
-InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without
-camera poses, for novel-view rendering.
+<p align="center">InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without camera poses, for novel-view rendering.</p>
 
-[Code and usage](v2/README.md) · [Installation](v2/INSTALL.md) ·
-[Examples](v2/examples/README.md) · [COLMAP guide](v2/docs/colmap.md)
+<p align="center"><a href="v2/README.md">Code and usage</a> · <a href="v2/INSTALL.md">Installation</a> · <a href="v2/examples/README.md">Examples</a> · <a href="v2/docs/colmap.md">COLMAP guide</a></p>
 
 ---
 
@@ -113,19 +110,15 @@ camera poses, for novel-view rendering.
 
 </div>
 
-InfiniSplat v1 reconstructs 3D Gaussian scenes from a single RGB image, optionally
-guided by LiDAR depth, for novel-view rendering.
+<p align="center">InfiniSplat v1 reconstructs 3D Gaussian scenes from a single RGB image, optionally guided by LiDAR depth, for novel-view rendering.</p>
 
-[Code and usage](v1/README.md) · [Installation](v1/INSTALL.md) ·
-[Inference guide](v1/docs/inference.md)
+<p align="center"><a href="v1/README.md">Code and usage</a> · <a href="v1/INSTALL.md">Installation</a> · <a href="v1/docs/inference.md">Inference guide</a></p>
 
 ---
 
 ## Getting started
 
-From the repository root, run `cd v2` for multi-view reconstruction or `cd v1`
-for single-image / LiDAR-guided reconstruction, then follow that version's installation guide.
-Install each version in its own Python environment; their dependencies and weights differ.
+From the repository root, run `cd v2` for multi-view reconstruction or `cd v1` for single-image / LiDAR-guided reconstruction, then follow that version's installation guide. Install each version in its own Python environment; their dependencies and weights differ.
 
 ## License and Project Use
 
@@ -138,10 +131,8 @@ Project use by companies, universities, or other organizations is free but requi
 **Project use registration and Word template:** [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSff5QjjANlJ2hnXYqBSAzKWxEM58gIxPLh17-t3j3-MqO1a5w/viewform)
 
 
-V1 and v2 share the project license above. Third-party components retain their
-respective licenses and notices; see [v2 component provenance](v2/THIRD_PARTY.md).
+V1 and v2 share the project license above. Third-party components retain their respective licenses and notices; see [v2 component provenance](v2/THIRD_PARTY.md).
 
 ## Acknowledgments
 
-See the [v1 acknowledgments](v1/README.md#-acknowledgments) and
-[v2 acknowledgments](v2/README.md#acknowledgments).
+See the [v1 acknowledgments](v1/README.md#-acknowledgments) and [v2 acknowledgments](v2/README.md#acknowledgments).
