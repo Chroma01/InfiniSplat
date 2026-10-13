@@ -2,22 +2,23 @@
 
 Feed-forward 3D Gaussian reconstruction from images.
 
-| Version | Input | Getting started |
-| --- | --- | --- |
-| **[InfiniSplat v2](v2/README.md)** | Multiple overlapping images, optionally with calibrated cameras | [Installation](v2/INSTALL.md) · [Examples](v2/examples/README.md) · [COLMAP](v2/docs/colmap.md) |
-| **[InfiniSplat v1](v1/README.md)** | A single RGB image, optionally with LiDAR depth | [Installation](v1/INSTALL.md) · [Inference](v1/docs/inference.md) |
+<p align="center">
+  <strong><a href="#infinisplat-v2">v2 · Multi-view</a></strong>
+  &nbsp;|&nbsp;
+  <strong><a href="#infinisplat-v1">v1 · Single-image / LiDAR</a></strong>
+</p>
 
-## InfiniSplat v2
+<a name="infinisplat-v2"></a>
 
 <div align="center">
 
-<h2>InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views</h2>
+<h2>InfiniSplat v2: Analyzing and Improving<br>Feed-Forward 3DGS from Any Views</h2>
 
 <p>
   <a href="https://github.com/Edisoneh">Yongzhen Hu<sup>1,2*</sup></a> ·
   <a href="https://ritianyu.github.io/">Hao Yu<sup>1*</sup></a> ·
   <a href="https://plus-wave.github.io/">Jiawei Wang<sup>1</sup></a> ·
-  Xianming Zeng<sup>2</sup> · Jianyun Xu<sup>2</sup> · Xingliang Liu<sup>2</sup> ·
+  Xianming Zeng<sup>2</sup> · Jianyun Xu<sup>2</sup> · Xingliang Liu<sup>2</sup><br>
   <a href="https://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu<sup>3</sup></a> ·
   <a href="https://xzhou.me/">Xiaowei Zhou<sup>1</sup></a> ·
   <a href="https://person.zju.edu.cn/en/0093140">Hujun Bao<sup>1</sup></a> ·
@@ -56,12 +57,14 @@ camera poses, for novel-view rendering.
 
 <!-- Replace the paper badge with its public paper link when available; update the project-page URL if its hosting location changes. -->
 
-For installation, weight setup, camera modes, and runnable examples, see the
-[v2 README](v2/README.md). Original-resolution [example inputs](https://huggingface.co/Edisoneh/InfiniSplat-v2/resolve/main/examples-png.zip) are hosted with the weights (90.4 MB).
+[Code and usage](v2/README.md) · [Installation](v2/INSTALL.md) ·
+[Examples](v2/examples/README.md) · [COLMAP guide](v2/docs/colmap.md)
+
+Original-resolution [example inputs](https://huggingface.co/Edisoneh/InfiniSplat-v2/resolve/main/examples-png.zip) are hosted with the weights (90.4 MB).
 
 ---
 
-## InfiniSplat v1
+<a name="infinisplat-v1"></a>
 
 <div align="center">
 
