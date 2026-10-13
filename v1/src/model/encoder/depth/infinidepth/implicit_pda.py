@@ -64,8 +64,9 @@ class InfiniDepth(nn.Module):
             raise NotImplementedError("Dinov2 backbone is not implemented in this version.")
         elif backbone == "dinov3":
             _clear_torchhub_package("dinov3")
+            dinov3_repo_dir = Path(__file__).resolve().parent / "implicit_promptda_simple" / "torchhub" / "dinov3"
             self.pretrained = torch.hub.load(
-                "src/model/encoder/depth/infinidepth/implicit_promptda_simple/torchhub/dinov3",
+                str(dinov3_repo_dir),
                 f"dinov3_{encoder}",  # vitl16, vith16plus, vit7b16
                 source="local",
                 pretrained=False,
