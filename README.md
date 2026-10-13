@@ -14,7 +14,7 @@
 
 <div align="center">
 
-<h2>🌌 InfiniSplat v2: Analyzing and Improving<br>Feed-Forward 3DGS from Any Views</h2>
+<h2>🌐 InfiniSplat v2: Analyzing and Improving<br>Feed-Forward 3DGS from Any Views</h2>
 
 <div align="center">
   <a href="https://zju3dv.github.io/InfiniSplat2/">
@@ -26,9 +26,6 @@
   </a>
   <a href="https://huggingface.co/Edisoneh/InfiniSplat-v2">
     <img src="https://img.shields.io/badge/Weights-yellow?logo=huggingface&logoColor=white" alt="InfiniSplat v2 weights">
-  </a>
-  <a href="v2/README.md">
-    <img src="https://img.shields.io/badge/Code-blue?logo=github" alt="InfiniSplat v2 code">
   </a>
 </div>
 
