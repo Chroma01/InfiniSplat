@@ -9,7 +9,7 @@
 </div>
 
 | | [v2 · Multi-view](#infinisplat-v2) | [v1 · Single image / LiDAR](#infinisplat-v1) |
-| :--- | :---: | :---: |
+| --- | --- | --- |
 | Input | Multiple images, with or without camera poses | One RGB image, optionally guided by LiDAR depth |
 | Explore | [Code and usage](v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
 
@@ -58,9 +58,9 @@
 
 <!-- Replace the paper badge with its public paper link when available; update the project-page URL if its hosting location changes. -->
 
-<p align="center">InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without camera poses, for novel-view rendering.</p>
+InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without camera poses, for novel-view rendering.
 
-<p align="center"><a href="v2/README.md">Code and usage</a> · <a href="v2/INSTALL.md">Installation</a> · <a href="v2/examples/README.md">Examples</a> · <a href="v2/docs/colmap.md">COLMAP guide</a></p>
+[Code and usage](v2/README.md) · [Installation](v2/INSTALL.md) · [Inference guide](v2/docs/inference.md) · [COLMAP guide](v2/docs/colmap.md)
 
 ---
 
@@ -110,9 +110,9 @@
 
 </div>
 
-<p align="center">InfiniSplat v1 reconstructs 3D Gaussian scenes from a single RGB image, optionally guided by LiDAR depth, for novel-view rendering.</p>
+InfiniSplat v1 reconstructs 3D Gaussian scenes from a single RGB image, optionally guided by LiDAR depth, for novel-view rendering.
 
-<p align="center"><a href="v1/README.md">Code and usage</a> · <a href="v1/INSTALL.md">Installation</a> · <a href="v1/docs/inference.md">Inference guide</a></p>
+[Code and usage](v1/README.md) · [Installation](v1/INSTALL.md) · [Inference guide](v1/docs/inference.md)
 
 ---
 
