@@ -1,12 +1,18 @@
-# InfiniSplat
+<div align="center">
 
-<p align="center">Feed-forward 3D Gaussian reconstruction from images.</p>
+<h1>InfiniSplat</h1>
 
-<p align="center">
-  <strong><a href="#infinisplat-v2">v2 · Multi-view</a></strong>
-  &nbsp;|&nbsp;
-  <strong><a href="#infinisplat-v1">v1 · Single-image / LiDAR</a></strong>
-</p>
+<p><strong>From images to 3D Gaussian scenes</strong></p>
+
+<p>Feed-forward reconstruction for novel-view rendering.<br>
+Explore multi-view reconstruction (v2) or single-image reconstruction with optional LiDAR depth (v1).</p>
+
+</div>
+
+| | [v2 · Multi-view](#infinisplat-v2) | [v1 · Single image / LiDAR](#infinisplat-v1) |
+| --- | --- | --- |
+| Input | Multiple images, with or without camera poses | One RGB image, optionally guided by LiDAR depth |
+| Explore | [Code and usage](v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
 
 ---
 
@@ -47,7 +53,7 @@
 
 <div align="center">
 
-<a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="v2/assets/github_demo.gif" alt="InfiniSplat v2 reconstruction previews" width="90%" /></a>
+<a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="v2/assets/github_demo.gif" alt="InfiniSplat v2 multi-view reconstruction preview" width="90%" /></a>
 
 </div>
 
