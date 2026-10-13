@@ -16,6 +16,22 @@ Feed-forward 3D Gaussian reconstruction from images.
 
 <h2>InfiniSplat v2: Analyzing and Improving<br>Feed-Forward 3DGS from Any Views</h2>
 
+<div align="center">
+  <a href="https://zju3dv.github.io/InfiniSplat2/">
+    <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red" alt="InfiniSplat v2 project page">
+  </a>
+  <img src="https://img.shields.io/badge/Paper-Coming_Soon-lightgrey" alt="Paper: coming soon">
+  <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo">
+    <img src="https://img.shields.io/badge/HuggingFace-Demo-yellow?logo=huggingface&logoColor=yellow" alt="Hugging Face Demo">
+  </a>
+  <a href="https://huggingface.co/Edisoneh/InfiniSplat-v2">
+    <img src="https://img.shields.io/badge/HuggingFace-Weights-yellow?logo=huggingface&logoColor=yellow" alt="InfiniSplat v2 weights">
+  </a>
+  <a href="v2/README.md">
+    <img src="https://img.shields.io/badge/Code-v2-blue?logo=github" alt="InfiniSplat v2 code">
+  </a>
+</div>
+
 <p>
   <a href="https://github.com/Edisoneh">Yongzhen Hu<sup>1,2*</sup></a> ·
   <a href="https://ritianyu.github.io/">Hao Yu<sup>1*</sup></a> ·
@@ -32,25 +48,6 @@ Feed-forward 3D Gaussian reconstruction from images.
 
 </div>
 
-InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without
-camera poses, for novel-view rendering.
-
-<p align="center">
-  <a href="https://zju3dv.github.io/InfiniSplat2/">
-    <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red" alt="InfiniSplat v2 project page">
-  </a>
-  <img src="https://img.shields.io/badge/Paper-Coming_Soon-lightgrey" alt="Paper: coming soon">
-  <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo">
-    <img src="https://img.shields.io/badge/HuggingFace-Demo-yellow?logo=huggingface&logoColor=yellow" alt="Hugging Face Demo">
-  </a>
-  <a href="https://huggingface.co/Edisoneh/InfiniSplat-v2">
-    <img src="https://img.shields.io/badge/HuggingFace-Weights-yellow?logo=huggingface&logoColor=yellow" alt="InfiniSplat v2 weights">
-  </a>
-  <a href="v2/README.md">
-    <img src="https://img.shields.io/badge/Code-v2-blue?logo=github" alt="InfiniSplat v2 code">
-  </a>
-</p>
-
 <div align="center">
 
 <a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="v2/assets/github_demo.gif" alt="InfiniSplat v2 reconstruction previews" width="90%" /></a>
@@ -58,6 +55,9 @@ camera poses, for novel-view rendering.
 </div>
 
 <!-- Replace the paper badge with its public paper link when available; update the project-page URL if its hosting location changes. -->
+
+InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without
+camera poses, for novel-view rendering.
 
 [Code and usage](v2/README.md) · [Installation](v2/INSTALL.md) ·
 [Examples](v2/examples/README.md) · [COLMAP guide](v2/docs/colmap.md)
