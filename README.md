@@ -11,7 +11,7 @@
 | | [v2 · Multi-view](#infinisplat-v2) | [v1 · Single image / LiDAR](#infinisplat-v1) |
 | --- | --- | --- |
 | Input | Multiple images, with or without camera poses | One RGB image, optionally guided by LiDAR depth |
-| Explore | [Code and usage](v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
+| Explore | [Code and usage](InfiniSplat_v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](InfiniSplat_v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
 
 ---
 
@@ -52,7 +52,7 @@
 
 <div align="center">
 
-<a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="v2/assets/github_demo.gif" alt="InfiniSplat v2 multi-view reconstruction preview" width="90%" /></a>
+<a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="InfiniSplat_v2/assets/github_demo.gif" alt="InfiniSplat v2 multi-view reconstruction preview" width="90%" /></a>
 
 </div>
 
@@ -60,7 +60,7 @@
 
 InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without camera poses, for novel-view rendering.
 
-[Code and usage](v2/README.md) · [Installation](v2/INSTALL.md) · [Inference guide](v2/docs/inference.md) · [COLMAP guide](v2/docs/colmap.md)
+[Code and usage](InfiniSplat_v2/README.md) · [Installation](InfiniSplat_v2/INSTALL.md) · [Inference guide](InfiniSplat_v2/docs/inference.md) · [COLMAP guide](InfiniSplat_v2/docs/colmap.md)
 
 ---
 
@@ -106,19 +106,19 @@ InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or wit
 
 <div align="center">
 
-<img src="v1/assets/github_demo.gif" alt="InfiniSplat v1 Demo" width="90%" />
+<img src="InfiniSplat_v1/assets/github_demo.gif" alt="InfiniSplat v1 Demo" width="90%" />
 
 </div>
 
 InfiniSplat v1 reconstructs 3D Gaussian scenes from a single RGB image, optionally guided by LiDAR depth, for novel-view rendering.
 
-[Code and usage](v1/README.md) · [Installation](v1/INSTALL.md) · [Inference guide](v1/docs/inference.md)
+[Code and usage](InfiniSplat_v1/README.md) · [Installation](InfiniSplat_v1/INSTALL.md) · [Inference guide](InfiniSplat_v1/docs/inference.md)
 
 ---
 
 ## Getting started
 
-From the repository root, run `cd v2` for multi-view reconstruction or `cd v1` for single-image / LiDAR-guided reconstruction, then follow that version's installation guide. Install each version in its own Python environment; their dependencies and weights differ.
+From the repository root, run `cd InfiniSplat_v2` for multi-view reconstruction or `cd InfiniSplat_v1` for single-image / LiDAR-guided reconstruction, then follow that version's installation guide. Install each version in its own Python environment; their dependencies and weights differ.
 
 ## License and Project Use
 
@@ -131,8 +131,8 @@ Project use by companies, universities, or other organizations is free but requi
 **Project use registration and Word template:** [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSff5QjjANlJ2hnXYqBSAzKWxEM58gIxPLh17-t3j3-MqO1a5w/viewform)
 
 
-V1 and v2 share the project license above. Third-party components retain their respective licenses and notices; see [v2 component provenance](v2/THIRD_PARTY.md).
+V1 and v2 share the project license above. Third-party components retain their respective licenses and notices; see [v2 component provenance](InfiniSplat_v2/THIRD_PARTY.md).
 
 ## Acknowledgments
 
-See the [v1 acknowledgments](v1/README.md#-acknowledgments) and [v2 acknowledgments](v2/README.md#acknowledgments).
+See the [v1 acknowledgments](InfiniSplat_v1/README.md#-acknowledgments) and [v2 acknowledgments](InfiniSplat_v2/README.md#acknowledgments).

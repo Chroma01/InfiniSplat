@@ -9,7 +9,7 @@ The original 114 PNG images, two camera files and frame manifest are available
 as a **90.4 MB** [sample archive](https://huggingface.co/Edisoneh/InfiniSplat-v2/resolve/main/examples-png.zip).
 Image dimensions and pixel values are preserved; no JPEG conversion is used.
 
-From `v2/`, download and extract once before running the examples:
+From `InfiniSplat_v2/`, download and extract once before running the examples:
 
 ```bash
 hf download Edisoneh/InfiniSplat-v2 examples-png.zip --local-dir .
@@ -24,7 +24,7 @@ The images are downloaded separately to keep the code repository small.
 | `dtu_provided` | DTU scan 24 | 32 | Supplied cameras |
 | `hypersim_da3_pose` | Hypersim `ai_006_001` | 32 | DA3-estimated camera prior |
 
-From `v2/`, after installing and preparing `weights/da3`:
+From `InfiniSplat_v2/`, after installing and preparing `weights/da3`:
 
 ```bash
 infinisplat --model weights/da3 --images-dir examples/data/hypersim_provided/images --cameras examples/data/hypersim_provided/cameras.npz --max-views 50 --output result_hypersim --no-html
@@ -46,7 +46,7 @@ is limited; this preserves the full input-view set.
 
 ## Your own images
 
-Run from `v2/` after [installation](../INSTALL.md). Put 2–8 overlapping
+Run from `InfiniSplat_v2/` after [installation](../INSTALL.md). Put 2–8 overlapping
 images of one static scene directly in `images/` to start. Filenames determine the
 view order; supported extensions are JPG/JPEG, PNG and WebP, case-insensitively.
 Use a new output directory for every command.

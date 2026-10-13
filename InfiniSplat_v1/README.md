@@ -59,7 +59,7 @@ InfiniSplat supports two practical modes for single-image 3D Gaussian reconstruc
 
 ## ⚙️ Installation
 
-Run the commands below from `v1/` (`cd v1` from the repository root).
+Run the commands below from `InfiniSplat_v1/` (`cd InfiniSplat_v1` from the repository root).
 
 Please see [INSTALL.md](INSTALL.md) for environment setup and checkpoint download.
 

@@ -1,6 +1,6 @@
 # Inference Guide
 
-Run all commands from `v1/` through the Python entry point:
+Run all commands from `InfiniSplat_v1/` through the Python entry point:
 
 ```bash
 python -m src.demo.infer_batch_images [OPTIONS]

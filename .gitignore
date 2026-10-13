@@ -10,6 +10,6 @@ __pycache__/
 .idea/
 .DS_Store
 # Version-specific artifacts are also ignored by each version's .gitignore.
-/v1/outputs/
-/v1/checkpoints/
-/v2/weights/
+/InfiniSplat_v1/outputs/
+/InfiniSplat_v1/checkpoints/
+/InfiniSplat_v2/weights/

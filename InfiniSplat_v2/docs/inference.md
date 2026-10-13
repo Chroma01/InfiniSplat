@@ -1,7 +1,7 @@
 # Inference guide
 
 See [installation](../INSTALL.md), [examples](../examples/README.md) and the
-[COLMAP workflow](colmap.md). Run commands from `v2/`.
+[COLMAP workflow](colmap.md). Run commands from `InfiniSplat_v2/`.
 
 ## Run reconstruction
 

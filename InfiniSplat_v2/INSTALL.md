@@ -5,11 +5,11 @@ does not need a web UI, Gaussian rasterizer, FlashAttention or xformers.
 
 ## Environment
 
-From the repository root, enter `v2/` before installing. Use a separate
+From the repository root, enter `InfiniSplat_v2/` before installing. Use a separate
 environment for each version:
 
 ```bash
-cd v2
+cd InfiniSplat_v2
 ```
 
 ```bash
@@ -27,7 +27,7 @@ with an NVIDIA 570 driver:
 pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128
 ```
 
-Then, from the `v2/` directory:
+Then, from the `InfiniSplat_v2/` directory:
 
 ```bash
 pip install .
@@ -77,7 +77,7 @@ hf download Edisoneh/InfiniSplat-v2 examples-png.zip --local-dir .
 python -m zipfile -e examples-png.zip .
 ```
 
-Run these commands from `v2/`. The archive populates `examples/data/`; see
+Run these commands from `InfiniSplat_v2/`. The archive populates `examples/data/`; see
 [Examples](examples/README.md) for reconstruction commands. To prepare weights
 and examples together, run the weight-download command followed by these two
 commands. The model repository is public; no Hugging Face login is required.
