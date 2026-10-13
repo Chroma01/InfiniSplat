@@ -8,7 +8,7 @@
 
 </div>
 
-| | [v2 · Multi-view](#infinisplat-v2) | [v1 · Single image / LiDAR](#infinisplat-v1) |
+| | [InfiniSplat v2 · Multi-view](#infinisplat-v2) | [InfiniSplat v1 · Single image / LiDAR](#infinisplat-v1) |
 | --- | --- | --- |
 | Input | Multiple images, with or without camera poses | One RGB image, optionally guided by LiDAR depth |
 | Explore | [Code and usage](InfiniSplat_v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](InfiniSplat_v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
