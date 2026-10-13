@@ -8,6 +8,8 @@ Feed-forward 3D Gaussian reconstruction from images.
   <strong><a href="#infinisplat-v1">v1 · Single-image / LiDAR</a></strong>
 </p>
 
+---
+
 <a name="infinisplat-v2"></a>
 
 <div align="center">
