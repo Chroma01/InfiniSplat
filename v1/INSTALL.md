@@ -1,5 +1,7 @@
 ## 📦 Environment & Checkpoints
 
+Run the commands below from `v1/` (`cd v1` from the repository root).
+
 ### 1) Create environment ([miniforge](https://github.com/conda-forge/miniforge) is recommended)
 
 If using `conda`, replace `mamba` with `conda` in the following commands and use the `conda-forge` channel when installing `gxx`:
