@@ -31,23 +31,24 @@ from src.demo.infer_single_image import (
 from src.model.decoder.decoder_gsplat import is_gsplat_available
 from src.utils.gaussians import save_ply
 
+V1_ROOT = Path(__file__).resolve().parents[2]
 MODE_EXPERIMENTS = {
     "rgb": "infinisplat_hypersim_rgb",
     "lidar": "infinisplat_hypersim_lidar",
 }
 MODE_CHECKPOINTS = {
-    "rgb": Path("checkpoints/infinisplat_rgb.ckpt"),
-    "lidar": Path("checkpoints/infinisplat_lidar.ckpt"),
+    "rgb": V1_ROOT / "checkpoints/infinisplat_rgb.ckpt",
+    "lidar": V1_ROOT / "checkpoints/infinisplat_lidar.ckpt",
 }
 MODE_INPUT_DIRS = {
-    "rgb": Path("examples/data/rgb_demo"),
-    "lidar": Path("examples/data/lidar_demo"),
+    "rgb": V1_ROOT / "examples/data/rgb_demo",
+    "lidar": V1_ROOT / "examples/data/lidar_demo",
 }
-DEFAULT_OUTPUT_ROOT = Path("outputs/demo")
+DEFAULT_OUTPUT_ROOT = V1_ROOT / "outputs/demo"
 DEFAULT_MAX_RENDER_LONG_EDGE = 3840
 DEFAULT_MAX_RENDER_PIXELS = 3840 * 2160
 SPLAT_TRANSFORM = os.environ.get("SPLAT_TRANSFORM", "splat-transform")
-VIEWER_SETTINGS = Path(__file__).resolve().parents[2] / "config" / "viewer_settings.json"
+VIEWER_SETTINGS = V1_ROOT / "config" / "viewer_settings.json"
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
 PROMPT_DEPTH_EXTENSIONS = (".npz", ".npy", ".h5", ".hdf5", ".exr")
 
