@@ -29,7 +29,7 @@ _viewer_template: ViewerTemplate | None = None
 REQUEST_CACHE_SECONDS = 3600
 CACHE_CLEANUP_INTERVAL_SECONDS = 3600
 FULL_TITLE = "Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis"
-GITHUB_URL = "https://github.com/zju3dv/InfiniSplat"
+GITHUB_URL = "https://github.com/zju3dv/InfiniSplat/tree/main/v1"
 PROJECT_PAGE_URL = "https://zju3dv.github.io/InfiniSplat"
 INPUT_IMAGE_HINT = "Better for indoor scenes due to HyperSim-only training"
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -780,7 +780,7 @@ def select_example(evt: gr.SelectData) -> str:
     index = evt.index[0] if isinstance(evt.index, tuple) else evt.index
     if int(index) >= len(RGB_EXAMPLES):
         raise gr.Error("The selected example is no longer available.")
-    return RGB_EXAMPLES[int(index)]
+    return str(REPO_ROOT / RGB_EXAMPLES[int(index)])
 
 
 def configure_runtime(
