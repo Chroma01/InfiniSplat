@@ -25,7 +25,9 @@
   <a href="https://zju3dv.github.io/InfiniSplat2/">
     <img src="https://img.shields.io/badge/Project-red?logo=googlechrome&logoColor=white" alt="InfiniSplat v2 project page">
   </a>
-  <img src="https://img.shields.io/badge/Paper-Coming_Soon-lightgrey" alt="Paper: coming soon">
+  <a href="https://arxiv.org/abs/2610.20341">
+    <img src="https://img.shields.io/badge/Paper-blue?logo=arxiv&logoColor=white" alt="InfiniSplat v2 paper on arXiv">
+  </a>
   <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo">
     <img src="https://img.shields.io/badge/Demo-yellow?logo=huggingface&logoColor=white" alt="Hugging Face Demo">
   </a>
@@ -55,8 +57,6 @@
 <a href="https://zju3dv.github.io/InfiniSplat2/#demo"><img src="InfiniSplat_v2/assets/github_demo.gif" alt="InfiniSplat v2 multi-view reconstruction preview" width="90%" /></a>
 
 </div>
-
-<!-- Replace the paper badge with its public paper link when available; update the project-page URL if its hosting location changes. -->
 
 InfiniSplat v2 reconstructs 3D Gaussian scenes from multiple images, with or without camera poses, for novel-view rendering.
 

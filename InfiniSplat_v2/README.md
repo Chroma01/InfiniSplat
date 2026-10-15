@@ -6,7 +6,9 @@
   <a href="https://zju3dv.github.io/InfiniSplat2/">
     <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red" alt="InfiniSplat v2 project page">
   </a>
-  <img src="https://img.shields.io/badge/Paper-Coming_Soon-lightgrey" alt="Paper: coming soon">
+  <a href="https://arxiv.org/abs/2610.20341">
+    <img src="https://img.shields.io/badge/Paper-blue?logo=arxiv&logoColor=white" alt="InfiniSplat v2 paper on arXiv">
+  </a>
   <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo">
     <img src="https://img.shields.io/badge/HuggingFace-Demo-yellow?logo=huggingface&logoColor=yellow" alt="Hugging Face Demo">
   </a>
