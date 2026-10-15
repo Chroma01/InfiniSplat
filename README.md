@@ -11,7 +11,7 @@
 | | [InfiniSplat v2 · Multi-view](#infinisplat-v2) | [InfiniSplat v1 · Single image / LiDAR](#infinisplat-v1) |
 | --- | --- | --- |
 | Input | Multiple images, with or without camera poses | One RGB image, optionally guided by LiDAR depth |
-| Explore | [Code and usage](InfiniSplat_v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo) | [Code and usage](InfiniSplat_v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
+| Explore | [Code and usage](InfiniSplat_v2/README.md) · [Live demo](https://huggingface.co/spaces/Edisoneh/InfiniSplat2) | [Code and usage](InfiniSplat_v1/README.md) · [Live demo](https://huggingface.co/spaces/PLUS-WAVE/InfiniSplat) |
 
 ---
 
@@ -28,7 +28,7 @@
   <a href="https://arxiv.org/abs/2610.20341">
     <img src="https://img.shields.io/badge/Paper-blue?logo=arxiv&logoColor=white" alt="InfiniSplat v2 paper on arXiv">
   </a>
-  <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat-v2-demo">
+  <a href="https://huggingface.co/spaces/Edisoneh/InfiniSplat2">
     <img src="https://img.shields.io/badge/Demo-yellow?logo=huggingface&logoColor=white" alt="Hugging Face Demo">
   </a>
   <a href="https://huggingface.co/Edisoneh/InfiniSplat-v2">
